@@ -60,6 +60,7 @@ numerical_columns.remove('Team')
 numerical_columns.remove('Cycliste')
 numerical_columns.remove('Nationality')
 numerical_columns.remove('All_time_rank')
+numerical_columns.remove('UCI_rank')
 
 
 @st.cache
