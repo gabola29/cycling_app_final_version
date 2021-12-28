@@ -50,7 +50,7 @@ st.sidebar.write("For the select box (simple or multiselect), click on it to sho
 
 st.sidebar.write('----------------------')
 
-st.sidebar.write('Pick up two riders, for a comparison')
+st.sidebar.write('Choose one rider in the selectbox: ')
 
 
 # All the functions and dataframe manipulations :
@@ -59,6 +59,7 @@ numerical_columns = list(df.columns.values)
 numerical_columns.remove('Team')
 numerical_columns.remove('Cycliste')
 numerical_columns.remove('Nationality')
+numerical_columns.remove('All_time_rank')
 
 
 @st.cache
